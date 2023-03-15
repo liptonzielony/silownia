@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-3)
+  color: var(--color-3);
   text-decoration: none;
 }
 
@@ -746,7 +746,7 @@ h6 {
   margin-bottom: 10%;
 }
 /*--------------------------------------------------------------
-# Contact Section
+# Contact 
 --------------------------------------------------------------*/
 .contact .info-item+.info-item {
   margin-top: 40px;
@@ -890,17 +890,8 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Hero 
 --------------------------------------------------------------*/
-.scroller {
-  height: 300px;
-  overflow-y: scroll !important;
-  scroll-snap-type: y mandatory !important;
-}
-
-.scroller section {
-  scroll-snap-align: start !important;
-}
 .hero {
   width: 100%;
   min-height: 30vh;
