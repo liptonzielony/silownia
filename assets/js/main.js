@@ -1,9 +1,5 @@
-/**
-* Template Name: PhotoFolio - v1.2.0
-* Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
+
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -21,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 2000);
     });
   }
-
+ 
   /**
    * Mobile nav toggle
    */
@@ -54,6 +50,15 @@ document.addEventListener('DOMContentLoaded', () => {
       map: map,
     });
   }
+  // navbar background color change on scroll
+  $(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+    if(scroll < 300){
+        $('.fixed-top').css('background', 'transparent');
+    } else{
+        $('.fixed-top').css('background', 'rgba(247,116,74, 0.9)');
+    }
+});
   
   window.initMap = initMap;
   /**
@@ -92,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     })
   });
-
+ 
   /**
    * Scroll top button
    */
@@ -173,6 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Animation on scroll function and init
    */
+
   function aos_init() {
     AOS.init({
       duration: 1000,

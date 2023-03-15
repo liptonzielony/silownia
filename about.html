@@ -4,12 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Gym Hero - O nas</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <title>MGym - O nas</title>
 
   <!-- Favicons -->
-  <link href="assets/img/favicon1.png" rel="icon">
-  <link href="assets/img/favicon1.png" rel="apple-touch-icon">
+  <link href="assets/img/dumbbell.png" rel="icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,12 +25,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: PhotoFolio - v1.2.0
-  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -43,35 +36,25 @@
       <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <i class="bi bi-camera"></i>
-        <h1>Gym Hero</h1>
+        <img src="/assets/img/dumbbell.png">
+        <h1>MGym</h1>
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Strona główna</a></li>
-          <li><a href="about.html" class="active">Kadra</a></li>
-          <li class="dropdown"><a href="#"><span>Galeria</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="gallery.html">Nature</a></li>
-              <li><a href="gallery.html">People</a></li>
-              <li><a href="gallery.html">Architecture</a></li>
-              <li><a href="gallery.html">Animals</a></li>
-              <li><a href="gallery.html">Sports</a></li>
-              <li><a href="gallery.html">Travel</a></li>
-              <li class="dropdown"><a href="#"><span>Sub Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li><a href="index.html" class="active">Strona główna</a></li>
+          <li><a href="oferta.html">Oferta</a></li>
+          <li><a href="plan.html">Plan</a></li>
+              <li class="dropdown"><a href="#"><span>O Nas</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
-                  <li><a href="#">Sub Menu 1</a></li>
-                  <li><a href="#">Sub Menu 2</a></li>
-                  <li><a href="#">Sub Menu 3</a></li>
+                  <li><a href="about.html">Nasza siłownia</a></li>
+                  <li><a href="about.html">Kadra</a></li>
                 </ul>
               </li>
+              <li><a href="contact.html">Kontakt</a></li>
             </ul>
-          </li>
-          <li><a href="services.html">OFERTA</a></li>
-          <li><a href="contact.html">Kontakt</a></li>
         </ul>
-      </nav><!-- .navbar -->
+      </nav>
 
       <div class="header-social-links">
         <a href="https://twitter.com/vimalku53998597?t=atYbw3ii5_VK8Nq57NEZYQ&s=09" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -88,7 +71,7 @@
   <main id="main" data-aos="fade" data-aos-delay="250">
 
     <!-- ======= End Page Header ======= -->
-    <div class="page-header d-flex align-items-center">
+    <div class="page-header d-flex align-items-center" id="onas">
       <div class="container position-relative">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-6 text-center">
@@ -96,58 +79,22 @@
             <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
               Why do we use it? I</p>
 
-            <a class="cta-btn" href="contact.html">Sprawdź dostępne terminy!</a>
+            <a class="cta-btn" href="#kadra">Sprawdź naszą kadre!</a>
 
           </div>
         </div>
       </div>
     </div><!-- End Page Header -->
 
+     
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
+    <section>
 
-        <div class="row">
-          <div class="col-7"> <!-- ======= Maciek ======= -->
-            <img src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="img-fluid" alt="">
-          </div>
-          <div class="col-4 justify-content-center"> <!-- ======= Tekst Maciek ======= -->
-            <div class="section-header">
-              <h2>Założyciel</h2>
-              <p>Marek Marek</p>
-            </div>
-            <p class="fst-italic py-3">
-              orem Ipsum is simply dummy text of the printing and typesetting industry. Loremng essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-              Why do we use it? I
-             <br> orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the in
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>19 Feb 1999</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>000webhostapp.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91708 8828 858</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Warsaw, Poland</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Head Master</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>gymmarek123@gmail.com</span></li>
-                </ul>
-              </div>
-            </div>
-            
-                </div>
-        </div>
-
-        <div class="row" style="margin-top: 15%;">
-          <div class="col-7"> <!-- ======= Maciek ======= -->
-            <img src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="img-fluid" alt="">
-          </div>
-          <div class="col-4 justify-content-center"> <!-- ======= Tekst Maciek ======= -->
-            <div class="section-header">
+        <div class="container" id="kadra">
+          <div class="row row-cols-2">
+          <div class="col-md-3"><img src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="img-fluid" alt=""></div>
+            <div class="col">
+              <div class="section-header">
               <h2>Założyciel</h2>
               <p>Krzysiek Marek</p>
             </div>
@@ -156,38 +103,87 @@
               Why do we use it? I
              <br> orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the in
             </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>19 Feb 1999</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>000webhostapp.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91708 8828 858</span></li>
+            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Warsaw, Poland</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Head Master</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>gymmarek123@gmail.com</span></li>
-                </ul>
-              </div>
-            </div>
-            
-                </div>
+         
+          </div>
         </div>
-
-
       </div>
-    </section><!-- End About Section -->
+        <div class="container" id="margin">
+          <div class="row row-cols-2">
+            <div class="col">
+              <div class="section-header">
+              <h2>Założyciel</h2>
+              <p>Krzysiek Marek</p>
+            </div>
+            <p class="fst-italic py-3">
+              Brat bliźniak orem Ipsum is simply dummy text of the printing and typesetting industry. Loremng essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Why do we use it? I
+             <br> orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the in
+            </p>
+            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Warsaw, Poland</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>gymmarek123@gmail.com</span></li>
+          </div>
+
+            <div class="col-md-3 "><img src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="container" id="margin">
+          <div class="row row-cols-2">
+          <div class="col-md-3"><img src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="img-fluid" alt=""></div>
+            <div class="col ">
+              <div class="section-header">
+              <h2>Założyciel</h2>
+              <p>Krzysiek Marek</p>
+            </div>
+            <p class="fst-italic py-3">
+              Brat bliźniak orem Ipsum is simply dummy text of the printing and typesetting industry. Loremng essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Why do we use it? I
+             <br> orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the in
+            </p>
+            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Warsaw, Poland</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>gymmarek123@gmail.com</span></li>
+         
+          </div>
+        </div>
+      </div>
+        <div class="container" id="margin">
+          <div class="row row-cols-2">
+            <div class="col">
+              <div class="section-header">
+              <h2>Założyciel</h2>
+              <p>Krzysiek Marek</p>
+            </div>
+            <p class="fst-italic py-3">
+              Brat bliźniak orem Ipsum is simply dummy text of the printing and typesetting industry. Loremng essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Why do we use it? I
+             <br> orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the in
+            </p>
+            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Warsaw, Poland</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>gymmarek123@gmail.com</span></li>
+          </div>
+
+            <div class="col-md-3 "><img src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
       <div class="container">
 
         <div class="section-header">
-          <h2>Testimonials</h2>
-          <p>What they are saying</p>
+          <h2>Opinie klientów</h2>
+          <p>Co mówią o nas klienci</p>
         </div>
 
         <div class="slides-3 swiper">
@@ -199,12 +195,12 @@
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  A photographer is a person who takes photographs using a camera. Photography is the art, practice, and profession of creating still or moving pictures or chemically by means of a light-sensitive material such as photographic film.
+                  Ipsum is simply dummy text of the printing and typesetting industry. Loremng essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/1vk.jpeg" class="testimonial-img" alt="">
-                  <h3>Vimal Kumar</h3>
-                  <h4>Ceo &amp; Founder</h4>
+                  <h3>Krzysiek</h3>
+                  <h4>Mazowsze</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -215,12 +211,12 @@
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  A photo designer is a professional who combines technical and creative skills to design and Photo designers work with photographers and clients to enhance, modify, and transform images to meet specific needs or objectives.
+                  Ipsum is simply dummy text of the printing and typesetting industry. Loremng essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/port-21.jpg" class="testimonial-img" alt="">
-                  <h3>Garvit</h3>
-                  <h4>Designer</h4>
+                  <h3>Hugo</h3>
+                  <h4>Podlasie</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -228,15 +224,15 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  A photographer store owner is someone who runs a photography business and sells a range of photography-related products and services, such as camera equipment, photography lessons, and photo prints. 
+                  Ipsum is simply dummy text of the printing and typesetting industry. Loremng essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/mona.jpeg" class="testimonial-img" alt="">
-                  <h3>Miss. Sonali</h3>
-                  <h4>Store Owner</h4>
+                  <h3>Juzek</h3>
+                  <h4>Podkarpacie</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -244,15 +240,15 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  A photography freelancer is a self-employed photographer who offers their services on a project or contract basis. They are typically hired by individuals, businesses, or organizations to capture specific images, 
+                  Ipsum is simply dummy text of the printing and typesetting industry. Loremng essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/pan.jpeg" class="testimonial-img" alt="">
-                  <h3>Nikhil Pandey</h3>
-                  <h4>Freelancer</h4>
+                  <h3>Maciek</h3>
+                  <h4>Pomorskie</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -260,15 +256,15 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  A photography entrepreneur is an individual who has started their own photography business with the goal of making a profit. They may offer a variety of photography services, such as event, portrait, or commercial photography,
+                  Ipsum is simply dummy text of the printing and typesetting industry. Loremng essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/kalu.jpeg" class="testimonial-img" alt="">
-                  <h3>Deepak Kumar</h3>
-                  <h4>Entrepreneur</h4>
+                  <h3>Fryderyk</h3>
+                  <h4>Mazowsze</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -286,14 +282,10 @@
   <footer id="footer" class="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Vimu</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>MGym sp.zoo</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vimu-bootstrap-photography-website-template/ -->
-        Designed by <a href="https://github.com/Vimugithub" target="_blank">Vimu.Team</a>
+        Designed by <a href="" target="_blank">A.R - J.R</a>
       </div>
     </div>
   </footer><!-- End Footer -->
